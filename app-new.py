@@ -88,14 +88,14 @@ def update_twitter():
 
 
 days = 0
-while days < 2:
+while days < 7:
     print("Updating Twitter")
 
     # Update the twitter
     update_twitter()
 
     # Wait a day
-    time.sleep(3)
+    time.sleep(60*60*24)
 
     # Update day counter
     days += 1
